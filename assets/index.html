@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link charset="utf-8" rel="stylesheet" href="./styles/style.css">
+    <title>Trivia Time!</title>
+</head>
+<header>
+    <h1>Sports Trivia</h1>
+    <h2 id="timer"></h2>
+</header>
+<body>
+    <div id="all">
+    <div id="trivia-header" class="TrivHead">
+    <h1>Trivia time!</h1>
+    <h3>It's Trivia time! Please answer all questions within the time frame given. each incorrect answer will decrease your time available. Good Luck!</h3>
+    </div>
+
+  <div class="container">
+    <div class="hide" id="question-container">
+    <div class="questions" id="questions">QUESTION GOES HERE
+    </div>
+    <div id="choices-btn" class="btn-grid">
+    </div>
+
+    <div id="answer-status"></div>
+</div>
+  </div>
+  <div id="misc">
+  <div class="controls">
+    <button class="ctrl-btn" id="start-quiz">Start Quiz</button>
+    <button class="ctrl-btn" id="highscore-btn">Show HighScores</button>
+    <div class="hide" id="highscore-box">
+    <h4 id="highscore-initials"></h4>
+    <h4 id="highscore-score"></h4>
+    <div id="view-scores"></div>
+
+</div>
+  </div>
+  <form class="scores">
+    <h3>Save your High scores!</h3>
+    <label for="initials"></label>
+<input id="initials" name="initials"  type="text" placeholder="Please enter initials here">
+<button class="btn" id="submit-score">SUBMIT</button>
+<h2 id="saved-confirm"></h2>
+  </form>
+</div>
+<script charset="utf-8" type="text/javascript" src="/assets/JS/script.js"></script>
+</body>
+
+
+</html>

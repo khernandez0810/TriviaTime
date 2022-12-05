@@ -1,0 +1,117 @@
+*{background-color: bisque;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+html{
+    width: 100%;
+    height: 100%;;
+}
+
+header {
+border: 20px solid darkseagreen;
+text-align: center;
+padding: 20px;
+font-size: large;
+}
+
+.timer{
+text-align: right;
+padding: 10px 10px 10px 0;
+}
+
+
+.TrivHead {
+text-align: center;
+}
+
+body{
+    padding:0;
+    margin:0;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border:20px solid darkseagreen
+}
+.container{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.btn-grid{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    
+}
+.hide{
+    display: none;
+}
+
+.controls, .scores{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 20px;
+}
+.misc {
+    text-align: center;
+}
+.scores{
+    border: 20px solid darkseagreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+
+}
+
+.btn, .ctrl-btn{
+    font-size: 30px;
+    border: 7px solid coral;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 20px;
+    padding: 20px;
+    background-color: darkseagreen;
+}
+.questions{
+    font-size: 25px;
+    margin: 30px;
+    font-weight:bold;
+}
+#initials{
+    text-align: center;
+    padding: 5px;
+    border: solid 5px coral;
+    background-color: darkseagreen;
+    width: 35%;
+    height: 25px;
+    font-size: 15px;
+}
+
+
+#answer-status{
+
+    font-size: 45px;
+    font-weight: bold;
+}
+.saved-confirm{
+
+}
+
+#highscore-box{
+    border: 10px black solid;
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 10px;
+    border-color: coral;
+    background-color: darkseagreen;
+}
+.all{
+    border:20px solid darkseagreen;
+    padding: 20px;
+}
+h4{
+    background-color: darkseagreen;
+}
